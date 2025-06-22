@@ -1,0 +1,12 @@
+{
+  "Effect": "Allow",
+  "Action": [
+    "ssm:SendCommand",
+    "ssm:GetCommandInvocation",
+    "s3:PutObject",
+    "logs:CreateLogGroup",
+    "logs:CreateLogStream",
+    "logs:PutLogEvents"
+  ],
+  "Resource": "*"
+}
